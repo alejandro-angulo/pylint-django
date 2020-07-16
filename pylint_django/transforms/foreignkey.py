@@ -1,5 +1,4 @@
 from itertools import chain
-from importlib.util import find_spec
 
 from astroid import (
     MANAGER, nodes, InferenceError, inference_tip,
